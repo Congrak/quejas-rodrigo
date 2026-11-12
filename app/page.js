@@ -49,7 +49,7 @@ const RESPUESTAS = [
   "Esta queja fue revisada por un panel de expertas (sus amigas). Veredicto unánime: tiene razón.",
   "Su reclamo entra a la fila detrás de otros 47 igualitos. Rodrigo es muy constante.",
   "Hemos verificado los hechos. No hay apelación posible. Rodrigo puede llorar en la ventanilla 3.",
-  "El celular de Rodrigo fue enviado a terapia.”,
+  "El celular de Rodrigo fue enviado a terapia.",
 ];
 
 const TIEMPOS = [
@@ -226,7 +226,7 @@ export default function Home() {
             <input
               type="range"
               min="1"
-              max="10"
+              max="11"
               value={intensidad}
               onChange={(e) => setIntensidad(Number(e.target.value))}
               className="rango"
