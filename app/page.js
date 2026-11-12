@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const CATEGORIAS = [
+  { e: "📱", t: "Intenso nivel experto" },
   { e: "📵", t: "Nunca contestaba los mensajes" },
   { e: "⏰", t: "Llegaba tarde a TODO" },
   { e: "😴", t: "Roncaba como licuadora" },
@@ -26,6 +27,7 @@ const NIVELES = [
   "Captura de pantalla enviada",
   "Lo dije en el grupo familiar",
   "Nivel telenovela de 300 capítulos",
+  "Veía mis historias a los 0.2 segundos de subirlas"
 ];
 
 const CASTIGOS = [
@@ -34,6 +36,7 @@ const CASTIGOS = [
   "Que vea mi serie favorita completa sin quejarse",
   "Que escuche mi playlist entera, sin saltar canciones",
   "Que se le acabe la batería del cel en el peor momento",
+  "Que solo pueda mandar 1 mensaje al día, sin stickers",
   "Disculpa pública con mariachi incluido",
   "Que pise un Lego descalzo (solo uno, no soy mala)",
   "Nada, con que lo lea y sufra tantito es suficiente",
@@ -46,6 +49,7 @@ const RESPUESTAS = [
   "Esta queja fue revisada por un panel de expertas (sus amigas). Veredicto unánime: tiene razón.",
   "Su reclamo entra a la fila detrás de otros 47 igualitos. Rodrigo es muy constante.",
   "Hemos verificado los hechos. No hay apelación posible. Rodrigo puede llorar en la ventanilla 3.",
+  "El celular de Rodrigo fue enviado a terapia.”,
 ];
 
 const TIEMPOS = [
